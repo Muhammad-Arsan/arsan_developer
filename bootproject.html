@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My BootStrape Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        .bgimg{
+         background-image: url("audi0.jpg");
+         height: 660px;
+         width: 100%;
+         background-size: 100% 100%;
+         background-attachment: fixed;
+          }
+        .headerset{
+            margin-top: 100px;
+            box-sizing: border-box;
+        } 
+        .ourservices{
+            padding: 100px 0px 60px;
+            height: 700px;    
+              } 
+        .ourservices h1{
+            font-size: 50px;
+            font-weight: bold;
+        }
+         #p1{
+            color: tomato;
+        }      
+        .rowsetting{
+            margin: 100px 0px ;
+        }  
+        .imgsetting{
+            border-radius: 50%;
+            height: 100%;
+            width: 33%;
+        }
+        .portfolio{
+            padding: 100px 0px 60px;
+            height: 700px;    
+        }  
+        .portfolio h1{
+            font-size: 50px;
+            font-weight: bold;
+        }  
+        .port{
+            margin: 100px 0px;
+        }
+        .profile{
+            padding: 100px 0px 60px;
+            height: 700px;    
+        }
+        .profile h1{
+            font-size: 50px;
+            font-weight: bold;
+        }  
+        .profilesetting{
+            margin:100px 0px;
+        }
+        .footer{
+            margin-bottom: 50px;
+        }
+        @media(min-width: 480px) and (max-width: 574px){
+            .portfolio{
+        
+            height: 1200px;    
+        }  
+        .profile{
+            
+            height: 1200px;    
+        }
+        } 
+    </style>
+</head>
+<body>
+   <div class="bgimg">
+         <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+             <div class="container">
+                 <a href="#" class="navbar-brand text-warning font-weight-bold">Audi</a>
+                 <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#id">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse text-center" id="id">
+                     <ul class="navbar-nav ml-auto">
+                         <li class="nav-item">
+                             <a href="#" class="nav-link text-white">GENERATIONS</a>
+                         </li>
+                         
+                         <li class="nav-item">
+                            <a href="#" class="nav-link text-white">PORTFOLIO</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">ABOUT</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">TEAM</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">CONTACT</a>
+                        </li>
+
+                     </ul>
+                 </div>
+            </div>
+        </nav>     
+        <div class="container text-center headerset">
+              <h2>Welcome To Our Audi House </h2>
+              <h1>It's nice to meet you!</h1>
+              <button class="btn btn-warning text-success">Subscribe-Here</button>    
+                 
+        </div>      
+   </div>
+       <section class="container ourservices text-center">
+        <h1>GENERATIONS</h1>
+        <p id="p1">These are our generations you may feel it.</p>
+         <div class="row rowsetting">
+             <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                 <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-car" style="font-size:60px;color:blue;"></i>
+                </div>
+                <h2>Audi A5</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis et illo minima quae vero</p>
+
+             </div>
+             <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-car" style="font-size:60px;color:red;"></i>
+               </div>
+               <h2>Audi A80</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis et illo minima quae vero</p>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="imgsetting d-block m-auto bg-warning"><i class="fa fa-car" style="font-size:60px;color: lime;"></i>
+               </div>
+               <h2>Audi B4</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nobis et illo minima quae vero</p>
+
+            </div>
+ 
+         </div>
+     </section>
+     <section class="container portfolio text-center">
+         <h1>PORTOFOLIO</h1>
+         <p id="p1">This is our portoolio for Audi increment. </p>
+          <div class="row port">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                  <div class="card">
+                      <img src="card1.jpg" height="200px" width="350px">
+                      <div class="card-body">
+                          <h2 class="card-title">Audi A5</h2>
+                          <p class="card-text">Look Beautiful</p>
+                      </div> 
+
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="card2.jpg" height="200px" width="350px">
+                    <div class="card-body">
+                        <h2 class="card-title">Audi A8</h2>
+                        <p class="card-text">Amzaing Car</p>
+                    </div> 
+
+                 </div>
+               </div>     
+               <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+                <div class="card">
+                    <img src="audi10.jpg" height="200px" width="350px">
+                    <div class="card-body">
+                        <h2 class="card-title">AUDI A10</h2>
+                        <p class="card-text">The new Comer</p>
+                    </div> 
+
+                </div>
+        </div>
+    </div>
+   
+</section>
+            <section class="container profile text-center">
+                   <h1>TEAM</h1>
+                   <p id="p1">These are our spcielist in the Team.</p>
+                   <div class="row profilesetting ">
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block- m-auto">
+                           <figure class="figure">
+                               <img src="baba.jpg" class="figure-img img-fluid rounded-circle" 
+                               height="200px" width="200px">
+                               <figcaption>
+                                   <h4>Babar </h4>
+                                   <p class="figure-caption">t20 player</p>
+                               </figcaption>
+                            </figure>
+                        </div>
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block- m-auto">
+                            <figure class="figure">
+                                 <img src="baba.jpg" class="figure-img img-fluid rounded-circle" 
+                                  height="200px" width="200px">
+                                <figcaption>
+                                   <h4>Babar Azam</h4>
+                                   <p class="figure-caption">The Crickter</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block- m-auto">
+                            <figure class="figure">
+                                <img src="baba.jpg" class="figure-img img-fluid rounded-circle" 
+                                height="200px" width="200px">
+                                <figcaption>
+                                    <h4>Baba Azam</h4>
+                                    <p class="figure-caption">Test Developer</p>
+                                </figcaption>
+ 
+                            </figure>
+                      </div>
+                </div> 
+                    </section>
+            <footer class="footer text-center">
+                 <h6>Copyright 2020,Design by Muhammad Arsan. </h6>
+            </footer> 
+</body>
+</html>
+   
